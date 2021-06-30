@@ -1,0 +1,149 @@
+* {
+  font-family: 'Ubuntu', Sans-Serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  
+}
+.container {
+  width: 100%;
+  margin: 1rem auto;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+.input-div {
+  /*width: 90%;*/
+  margin: auto;
+}
+label {
+  font-weight: 500;
+}
+label,
+input,
+a {
+  display: block;
+}
+label {
+  margin-bottom: 0.15rem;
+}
+.total-serials,
+.desired-serials {
+  padding: 0.5rem;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin-bottom: 0.55rem;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.total-serials:focus,
+.desired-serials:focus {
+  border: 2px solid skyblue;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  background: #292929;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.btn:hover {
+  background: skyblue;
+}
+
+.result-div {
+  width: 100%;
+  margin: 1.2rem auto 0;
+  padding: 1rem;
+  background: ;
+  border: 2px solid gray;
+  border-radius: 5px;
+  display: none;
+}
+.result-text {
+  margin-bottom: 1.2rem;
+}
+.total-ser,
+.desired-ser {
+  font-weight: 600;
+  font-weight: 1.1rem;
+}
+.total-ser {
+  margin-bottom: 0.4rem;
+}
+.result {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.newDiv {
+  /*width: 10%;*/
+  padding: 0.5rem;
+  flex-grow: 1;
+  /*border: 1px solid #000;*/
+  display: flex;
+  justify-content: center;
+}
+.navigation {
+  margin-top: 1rem;
+  display: none;
+  padding: 0 0.15rem;
+}
+.fa-print,
+.fa-sync-alt {
+  font-size: 0.9rem;
+  margin-right: 0.3rem;
+}
+.print {
+  display: inline;
+  padding: 0.5rem 0.8rem;
+  background: green;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.4s;
+  margin-right: 0.6rem;
+}
+.print:hover {
+  background: transparent;
+  color: green;
+  border: 1px solid green;
+}
+.reload {
+  display: inline;
+  padding: 0.5rem 0.8rem;
+  background: transparent;
+  border: 1px solid green;
+  text-decoration: none;
+  color: green;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.reload:hover {
+  background: green;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.time {
+  margin: ;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+.end {
+  margin: 0.4rem auto 0.6rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
